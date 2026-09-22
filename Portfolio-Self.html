@@ -1,0 +1,320 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Raman Rajput &mdash; Portfolio</title>
+  <meta name="description" content="AI/ML Engineer &mdash; portfolio, projects, certifications and experience." />
+
+  <!-- Fonts: a technical display face for headings, a clean sans for body copy -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css?v=3">
+</head>
+
+<body>
+
+  <div class="layout">
+
+    <!-- ============================================================
+       SIDEBAR NAVIGATION
+       ============================================================ -->
+    <aside class="sidebar" id="sidebar">
+      <div>
+        <a href="#hero" class="brand">
+          <span class="name">Raman Rajput</span>
+          <span class="role">AI/ML Engineer</span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="sidebar">
+          Menu
+        </button>
+
+        <nav class="side-nav" id="sideNav">
+          <a href="#hero"><span class="dot"></span>Home</a>
+          <a href="#skills"><span class="dot"></span>Skills</a>
+          <a href="#projects"><span class="dot"></span>Projects</a>
+          <a href="#certifications"><span class="dot"></span>Certifications</a>
+          <a href="#education"><span class="dot"></span>Education</a>
+          <a href="#resume"><span class="dot"></span>Resume</a>
+        </nav>
+      </div>
+
+      <div class="side-foot" id="sideFoot">
+        <div class="socials">
+          <a href="mailto:ramanrajput3844@gmail.com">Email</a>
+          <a href="https://www.linkedin.com/in/raman-rajput-1442ab320" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/ramanO9" target="_blank" rel="noopener">GitHub</a>
+        </div>
+        <span class="copyright">&copy; <span id="year"></span> Raman Rajput</span>
+      </div>
+    </aside>
+
+    <main>
+
+      <!-- ============================================================
+         HERO
+         ============================================================ -->
+      <section id="hero" class="animate-left">
+        <div class="wrap">
+          <div class="hero-grid">
+            <div>
+              <div class="hero-kicker">Available for AI/ML opportunities</div>
+              <h1>Building intelligent <span class="accent">AI/ML</span> solutions from data to impact.</h1>
+              <p class="hero-sub">
+                I'm Raman Rajput, an AI/ML engineer focused on turning ideas into practical,
+                data-driven solutions. I enjoy building intelligent products and exploring how
+                machine learning can solve real-world problems.
+              </p>
+              <div class="hero-actions">
+                <a class="btn primary" href="mailto:ramanrajput3844@gmail.com">Email me</a>
+                <a class="btn" href="https://www.linkedin.com/in/raman-rajput-1442ab320" target="_blank"
+                  rel="noopener">LinkedIn</a>
+                <a class="btn" href="https://github.com/ramanO9" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+            <div class="hero-photo">
+              <img src="Profile.png" alt="Raman" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+         SKILLS
+         ============================================================ -->
+      <section id="skills" class="animate-right">
+        <div class="wrap">
+          <div class="sec-head">
+            <h2>Technical skills</h2>
+            <p>Core strengths across AI/ML, programming languages, and modern tools.</p>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-card animate-left">
+              <h3>Languages</h3>
+              <p>C++, Python, C, Java, SQL</p>
+            </div>
+            <div class="skill-card animate-right">
+              <h3>AI/ML</h3>
+              <p>Machine Learning, Natural Language Processing, NumPy, Pandas, Matplotlib</p>
+            </div>
+            <div class="skill-card animate-left">
+              <h3>Tools/Platforms</h3>
+              <p>Git, GitHub, Jupyter Notebook, Blender</p>
+            </div>
+            <div class="skill-card animate-right">
+              <h3>Soft Skills</h3>
+              <p>Problem-Solving, Adaptability, Teamwork</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+         PROJECTS
+         ============================================================ -->
+      <section id="projects" class="animate-left">
+        <div class="wrap">
+          <div class="sec-head">
+            <h2>Projects</h2>
+            <p>A few things I've built, shipped, and maintained.</p>
+          </div>
+
+          <div class="project animate-right">
+            <div class="project-thumb">
+              <img src="Projects/Code Explain.png" alt="CodeExplain Screenshot"
+                style="width: 100%; height: 100%; object-fit: cover;" />
+            </div>
+            <div>
+              <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Streamlit</span>
+                <span class="tag">Tree Sitter</span>
+              </div>
+              <h3>CodeExplain</h3>
+              <p>A plain-English code tutoring application utilizing AST-based static code analysis with Tree-sitter and
+                Groq LLaMA 3.3 70B for automated explanations and complexity analysis.</p>
+              <div class="project-links">
+                <a href="https://github.com/ramanO9/Code-Explainer-AI" target="_blank" rel="noopener">GitHub &rarr;</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project animate-left">
+            <div class="project-thumb">
+              <img src="Projects/deadlock.jpg" alt="Deadlock Prevention and Recovery Kit project screenshot" />
+            </div>
+            <div>
+              <div class="project-tags">
+                <span class="tag">HTML5 / CSS3</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Banker's Algorithm</span>
+              </div>
+              <h3>Deadlock Prevention and Recovery Kit</h3>
+              <p>Interactive Operating Systems simulator demonstrating deadlock avoidance, detection, and recovery.
+                Implements Banker’s Algorithm with dynamic matrices to identify safe/unsafe system states.</p>
+              <div class="project-links">
+                <a href="https://github.com/ramanO9" target="_blank" rel="noopener">GitHub &rarr;</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project animate-right">
+            <div class="project-thumb">
+              <img src="Nutrionist.png" alt="AI Nutritionist project screenshot" />
+            </div>
+            <div>
+              <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">RAG</span>
+                <span class="tag">LLM / FAISS</span>
+              </div>
+              <h3>AI Nutritionist Chatbot</h3>
+              <p>Knowledge-grounded conversational assistant for personalized nutrition guidance. Uses a FAISS-based RAG
+                pipeline and LLM inference for generating structured recommendations.</p>
+              <div class="project-links">
+                <a href="https://github.com/ramanO9" target="_blank" rel="noopener">GitHub &rarr;</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ============================================================
+         CERTIFICATIONS
+         ============================================================ -->
+      <section id="certifications" class="animate-left">
+        <div class="wrap">
+          <div class="sec-head">
+            <h2>Certifications & Training</h2>
+            <p>Courses and certifications I've completed.</p>
+          </div>
+          <div class="cert-grid">
+
+            <div class="cert-card animate-right">
+              <div class="cert-thumb">
+                <img src="Certificates/AI/LLMs.png" alt="Mastering LLMs And Agentic AI certificate" />
+              </div>
+              <div>
+                <h3>Mastering LLMs And Agentic AI</h3>
+                <div class="cert-meta">Lovely Professional University &middot; Jul '26</div>
+              </div>
+            </div>
+
+            <div class="cert-card animate-left">
+              <div class="cert-thumb">
+                <img src="Certificates/AI/basic%20to%20beyond%20python.jpg" alt="Basic to Beyond Python certificate" />
+              </div>
+              <div>
+                <h3>Basic to Beyond Python</h3>
+                <div class="cert-meta">CSE Pathshala &middot; Jan '25</div>
+              </div>
+            </div>
+
+            <div class="cert-card animate-right">
+              <div class="cert-thumb">
+                <img src="Certificates/AI/DSA.png" alt="Data Structure and Algorithms certificate" />
+              </div>
+              <div>
+                <h3>Data Structure and Algorithms</h3>
+                <div class="cert-meta">iamneo &middot; Jun '26</div>
+              </div>
+            </div>
+
+            <div class="cert-card animate-left">
+              <div class="cert-thumb">
+                <img src="Certificates/AI/Full%20Stack%20Workshop.jpg" alt="Full Stack Web Developer Workshop certificate" />
+              </div>
+              <div>
+                <h3>Full Stack Web Developer Workshop</h3>
+                <div class="cert-meta">Physics Wallah &middot; Nov '24</div>
+              </div>
+            </div>
+
+            <div class="cert-card animate-right">
+              <div class="cert-thumb">
+                <img src="Certificates/ReactJS.jpg" alt="React JS certificate" />
+              </div>
+              <div>
+                <h3>React JS</h3>
+                <div class="cert-meta">Tech Veda &middot; Mar '25</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+         EDUCATION
+         ============================================================ -->
+      <section id="education" class="animate-left">
+        <div class="wrap">
+          <div class="sec-head">
+            <h2>Education</h2>
+            <p>My academic background.</p>
+          </div>
+          <a href="https://www.lpu.in" target="_blank" rel="noopener" class="edu-card animate-right"
+            style="text-decoration: none; color: inherit;">
+            <div class="edu-photo">
+              <img src="Projects/lpu-opens-admissions-for-2025-26-academic-session-via-lpunest.jpg"
+                alt="Lovely Professional University" />
+            </div>
+            <div class="edu-body">
+              <div class="edu-est">Aug 2024 &ndash; Present</div>
+              <h3>Lovely Professional University</h3>
+              <div class="edu-loc">Phagwara, Punjab</div>
+              <p>Bachelor of Technology in Computer Science and Engineering</p>
+              <div class="edu-stats">
+                <div class="edu-stat"><b>7.43</b><span>CGPA</span></div>
+              </div>
+            </div>
+          </a>
+
+        </div>
+      </section>
+
+      <!-- ============================================================
+         RESUME
+         ============================================================ -->
+      <section id="resume" class="animate-left">
+        <div class="wrap">
+          <div class="sec-head">
+            <h2>Resume</h2>
+            <p>My full curriculum vitae.</p>
+          </div>
+          <div class="resume-container"
+            style="width:100%; max-width:520px; margin:0 auto; background: var(--bg-panel); padding: 14px; border-radius: 12px; border: 1px solid var(--line); display: flex; flex-direction: column; align-items: center; gap: 14px;">
+
+            <a href="https://drive.google.com/file/d/18bR6pEYzZ38hf4aOEXzV4evfjKB0vsEe/view?usp=sharing"
+              target="_blank" rel="noopener" aria-label="Open Raman Rajput resume">
+              <img src="CV.png" alt="Raman Rajput resume" style="display:block; width:100%; max-width:480px; margin:0 auto; border:1px solid var(--line); border-radius:8px;" />
+            </a>
+
+            <div style="display:flex; gap:12px; flex-wrap:wrap;">
+              <a class="btn" href="mailto:ramanrajput3844@gmail.com">Email me instead</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="wrap">
+          &copy; <span id="year2"></span> Raman Rajput. All rights reserved.
+        </div>
+      </footer>
+
+    </main>
+  </div>
+
+  <script src="script.js?v=3"></script>
+
+</body>
+
+</html>
